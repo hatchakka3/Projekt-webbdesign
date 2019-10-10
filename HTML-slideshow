@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cache Records: Realeses</title>
+    <link rel="stylesheet" href="CSS.css">
+    <script src="JS/index.js"></script>
+</head>
+<body class="intro">
+
+<h1>Cache Records realeses &#128165 &#x1F4AF</h1>
+
+<div class="slideshow">  
+
+   <div class="bilder">
+       <img src="/images/Konsert.jpg" style="width:100%">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laboriosam, nam consequatur libero, dolorem expedita animi, pariatur magni tempora cum eius. Esse fugiat molestias sequi voluptas voluptates ex excepturi et?</p>
+   </div>
+
+   <div class="bilder">
+        <img src="images/Weird1958747.jpeg" style="width:100%">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laboriosam, nam consequatur libero, dolorem expedita animi, pariatur magni tempora cum eius. Esse fugiat molestias sequi voluptas voluptates ex excepturi et?</p>
+   </div>
+
+   <div class="bilder">
+        <img src="images/magic-2975739.jpeg" style="width:100%">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laboriosam, nam consequatur libero, dolorem expedita animi, pariatur magni tempora cum eius. Esse fugiat molestias sequi voluptas voluptates ex excepturi et?</p>
+   </div>
+
+<a class="vänster" onclick="plusSlides(-1)">&#10094;</a>
+<a class="höger" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+</body>
+</html>
